@@ -1,0 +1,22 @@
+{
+  "@context": [
+    "https://w3id.org/xapi/profiles/context",
+    {
+      "nf": "https://neurofit.github.io/xAPI/"
+    }
+  ],
+  "@graph": [
+    {
+      "id": "nf:type/exposure",
+      "type": "ActivityType",
+      "inScheme": "nf:v0",
+      "deprecated": false,
+      "prefLabel": {
+        "en": "exposure"
+      },
+      "definition": {
+        "en": "An occupational, environmental, or other exposure event the actor experiences that may affect their health or performance."
+      }
+    }
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "@context": [
+    "https://w3id.org/xapi/profiles/context",
+    {
+      "nf": "https://neurofit.github.io/xAPI/"
+    }
+  ],
+  "@graph": [
+    {
+      "id": "nf:exposure/sleeploss",
+      "type": "Activity",
+      "inScheme": "nf:v0",
+      "deprecated": false,
+      "activityDefinition": {
+        "@context": "https://w3id.org/xapi/profiles/activity-context",
+        "type": "https://neurofit.github.io/xAPI/type/exposure",
+        "name": {
+          "en": "sleep loss"
+        },
+        "description": {
+          "en": "Extended wakefulness resulting in reduced sleep duration."
+        }
+      }
+    }
+  ]
+}

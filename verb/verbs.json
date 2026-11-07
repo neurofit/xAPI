@@ -1,0 +1,25 @@
+{
+  "@context": [
+    "https://w3id.org/xapi/profiles/context",
+    {
+      "nf": "https://neurofit.github.io/xAPI/"
+    }
+  ],
+  "@graph": [
+    {
+      "id": "nf:verb/attended",
+      "type": "Verb",
+      "inScheme": "nf:v0",
+      "deprecated": false,
+      "prefLabel": {
+        "en": "attended"
+      },
+      "definition": {
+        "en": "Indicates the actor was present at a virtual or physical event or activity."
+      },
+      "exactMatch": [
+        "http://adlnet.gov/expapi/verbs/attended"
+      ]
+    }
+  ]
+}

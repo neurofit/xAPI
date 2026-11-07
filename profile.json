@@ -1,0 +1,28 @@
+{
+  "@context": [
+    "https://w3id.org/xapi/profiles/context",
+    {
+      "nf": "https://neurofit.github.io/xAPI/"
+    }
+  ],
+  "id": "nf:",
+  "type": "Profile",
+  "conformsTo": "https://w3id.org/xapi/profiles#1.0",
+  "prefLabel": {
+    "en": "neuroFit xAPI profile"
+  },
+  "definition": {
+    "en": "Verbs, activities, and exposures used by neuroFit to record xAPI statements."
+  },
+  "author": {
+    "type": "Organization",
+    "name": "neuroFit",
+    "url": "https://www.neurofit.tech"
+  },
+  "versions": [
+    {
+      "id": "nf:v0",
+      "generatedAtTime": "2026-11-07T00:00:00Z"
+    }
+  ]
+}
