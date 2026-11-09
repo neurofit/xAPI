@@ -1,0 +1,85 @@
+{
+  "@context": [
+    "https://w3id.org/xapi/profiles/context",
+    {
+      "nf": "https://neurofit.github.io/xAPI/"
+    }
+  ],
+  "@graph": [
+    {
+      "id": "nf:activity/LWA/hathayoga",
+      "type": "Activity",
+      "inScheme": "nf:v0",
+      "deprecated": false,
+      "activityDefinition": {
+        "@context": "https://w3id.org/xapi/profiles/activity-context",
+        "name": {
+          "en": "hatha yoga"
+        },
+        "description": {
+          "en": "Yoga focused on physical postures, breathing exercises, and relaxation."
+        }
+      }
+    },
+    {
+      "id": "nf:activity/LWA/dhyanayoga",
+      "type": "Activity",
+      "inScheme": "nf:v0",
+      "deprecated": false,
+      "activityDefinition": {
+        "@context": "https://w3id.org/xapi/profiles/activity-context",
+        "name": {
+          "en": "dhyana yoga"
+        },
+        "description": {
+          "en": "Yoga focused on meditation and mindfulness."
+        }
+      }
+    },
+    {
+      "id": "nf:activity/LWA/qigong",
+      "type": "Activity",
+      "inScheme": "nf:v0",
+      "deprecated": false,
+      "activityDefinition": {
+        "@context": "https://w3id.org/xapi/profiles/activity-context",
+        "name": {
+          "en": "qi gong"
+        },
+        "description": {
+          "en": "Slow, coordinated movements combined with breathing and meditation."
+        }
+      }
+    },
+    {
+      "id": "nf:activity/LWA/pickleball",
+      "type": "Activity",
+      "inScheme": "nf:v0",
+      "deprecated": false,
+      "activityDefinition": {
+        "@context": "https://w3id.org/xapi/profiles/activity-context",
+        "name": {
+          "en": "pickleball"
+        },
+        "description": {
+          "en": "Paddle sport combining elements of tennis, badminton, and table tennis, played on a small court."
+        }
+      }
+    },
+    {
+      "id": "nf:activity/LWA/dogwalk",
+      "type": "Activity",
+      "inScheme": "nf:v0",
+      "deprecated": false,
+      "activityDefinition": {
+        "@context": "https://w3id.org/xapi/profiles/activity-context",
+        "name": {
+          "en": "dog walk"
+        },
+        "description": {
+          "en": "Walking a dog outdoors."
+        }
+      }
+    }
+  ]
+}

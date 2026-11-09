@@ -7,77 +7,107 @@
   ],
   "@graph": [
     {
-      "id": "nf:LWA/activity/hathayoga",
+      "id": "nf:hfacs/tasksaturation",
       "type": "Activity",
       "inScheme": "nf:v0",
       "deprecated": false,
       "activityDefinition": {
         "@context": "https://w3id.org/xapi/profiles/activity-context",
         "name": {
-          "en": "hatha yoga"
+          "en": "workload"
         },
         "description": {
-          "en": "Yoga focused on physical postures, breathing exercises, and relaxation."
+          "en": "HFACS PC103: Task Saturation."
         }
       }
     },
     {
-      "id": "nf:LWA/activity/dhyanayoga",
+      "id": "nf:hfacs/fatigue",
       "type": "Activity",
       "inScheme": "nf:v0",
       "deprecated": false,
       "activityDefinition": {
         "@context": "https://w3id.org/xapi/profiles/activity-context",
         "name": {
-          "en": "dhyana yoga"
+          "en": "fatigue"
         },
         "description": {
-          "en": "Yoga focused on meditation and mindfulness."
+          "en": "HFACS PC307: Fatigue."
         }
       }
     },
     {
-      "id": "nf:LWA/activity/qigong",
+      "id": "nf:hfacs/channelizedattention",
       "type": "Activity",
       "inScheme": "nf:v0",
       "deprecated": false,
       "activityDefinition": {
         "@context": "https://w3id.org/xapi/profiles/activity-context",
         "name": {
-          "en": "qi gong"
+          "en": "channelized attention"
         },
         "description": {
-          "en": "Slow, coordinated movements combined with breathing and meditation."
+          "en": "HFACS PC102: Fixation / Channelized Attention."
         }
       }
     },
     {
-      "id": "nf:LWA/activity/pickleball",
+      "id": "nf:hfacs/burnout",
       "type": "Activity",
       "inScheme": "nf:v0",
       "deprecated": false,
       "activityDefinition": {
         "@context": "https://w3id.org/xapi/profiles/activity-context",
         "name": {
-          "en": "pickleball"
+          "en": "burnout"
         },
         "description": {
-          "en": "Paddle sport combining elements of tennis, badminton, and table tennis, played on a small court."
+          "en": "HFACS PC203: Burnout."
         }
       }
     },
     {
-      "id": "nf:LWA/activity/dogwalk",
+      "id": "nf:hfacs/haste",
       "type": "Activity",
       "inScheme": "nf:v0",
       "deprecated": false,
       "activityDefinition": {
         "@context": "https://w3id.org/xapi/profiles/activity-context",
         "name": {
-          "en": "dog walk"
+          "en": "haste"
         },
         "description": {
-          "en": "Walking a dog outdoors."
+          "en": "HFACS PC209: Pressing, Haste, Motivation."
+        }
+      }
+    },
+    {
+      "id": "nf:hfacs/spatialdisorientation",
+      "type": "Activity",
+      "inScheme": "nf:v0",
+      "deprecated": false,
+      "activityDefinition": {
+        "@context": "https://w3id.org/xapi/profiles/activity-context",
+        "name": {
+          "en": "disorientation"
+        },
+        "description": {
+          "en": "HFACS PC321: Spatial Disorientation."
+        }
+      }
+    },
+    {
+      "id": "nf:hfacs/distraction",
+      "type": "Activity",
+      "inScheme": "nf:v0",
+      "deprecated": false,
+      "activityDefinition": {
+        "@context": "https://w3id.org/xapi/profiles/activity-context",
+        "name": {
+          "en": "distraction"
+        },
+        "description": {
+          "en": "HFACS PC106: Distraction / Interruption."
         }
       }
     }

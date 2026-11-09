@@ -7,13 +7,13 @@
   ],
   "@graph": [
     {
-      "id": "nf:exposure/sleeploss",
+      "id": "nf:activity/MEE/sleeploss",
       "type": "Activity",
       "inScheme": "nf:v0",
       "deprecated": false,
       "activityDefinition": {
         "@context": "https://w3id.org/xapi/profiles/activity-context",
-        "type": "https://neurofit.github.io/xAPI/type/exposure",
+        "type": "nf:type/exposure",
         "name": {
           "en": "sleep loss"
         },
