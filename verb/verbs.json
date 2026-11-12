@@ -20,6 +20,21 @@
       "exactMatch": [
         "http://adlnet.gov/expapi/verbs/attended"
       ]
+    },
+    {
+      "id": "nf:verb/completed",
+      "type": "Verb",
+      "inScheme": "nf:v0",
+      "deprecated": false,
+      "prefLabel": {
+        "en": "completed"
+      },
+      "definition": {
+        "en": "Indicates the actor finished or concluded the activity normally."
+      },
+      "exactMatch": [
+        "http://adlnet.gov/expapi/verbs/completed"
+      ]
     }
   ]
 }

@@ -4,8 +4,9 @@ neuroFit xAPI profile (v0)
 ## Verbs
 Convention is that verbs are few, generic, reusable, and all past tense:
 - Attended
+- Completed
 
-In v0, the only verb is attended.
+In v0, the verbs are attended and completed.
 
 ## Object
 An object is a required element of an xAPI statement that accepts:
@@ -15,7 +16,13 @@ An object is a required element of an xAPI statement that accepts:
 - StatementRef
 - SubStatement
 
-In v0, all objects are untyped activities.
+In v0, activities can be typed by one of the six pillars of lifestyle medicine (American College of Lifestyle Medicine):
+- Nutrition
+- Physical activity
+- Restorative sleep
+- Stress management
+- Avoidance of risky substances
+- Positive social connection
 
 # Standards
 This project uses W3C standards: 

@@ -6,5 +6,77 @@
     }
   ],
   "@graph": [
+    {
+      "id": "nf:type/nutrition",
+      "type": "ActivityType",
+      "inScheme": "nf:v0",
+      "deprecated": false,
+      "prefLabel": {
+        "en": "nutrition"
+      },
+      "definition": {
+        "en": "An activity about eating habits, especially a whole-food, plant-predominant eating pattern. One of the six pillars of lifestyle medicine (American College of Lifestyle Medicine)."
+      }
+    },
+    {
+      "id": "nf:type/physical-activity",
+      "type": "ActivityType",
+      "inScheme": "nf:v0",
+      "deprecated": false,
+      "prefLabel": {
+        "en": "physical activity"
+      },
+      "definition": {
+        "en": "An activity about regular, consistent physical activity and exercise. One of the six pillars of lifestyle medicine (American College of Lifestyle Medicine)."
+      }
+    },
+    {
+      "id": "nf:type/restorative-sleep",
+      "type": "ActivityType",
+      "inScheme": "nf:v0",
+      "deprecated": false,
+      "prefLabel": {
+        "en": "restorative sleep"
+      },
+      "definition": {
+        "en": "An activity about getting sufficient, high-quality sleep. One of the six pillars of lifestyle medicine (American College of Lifestyle Medicine)."
+      }
+    },
+    {
+      "id": "nf:type/stress-management",
+      "type": "ActivityType",
+      "inScheme": "nf:v0",
+      "deprecated": false,
+      "prefLabel": {
+        "en": "stress management"
+      },
+      "definition": {
+        "en": "An activity about recognizing and managing stress. One of the six pillars of lifestyle medicine (American College of Lifestyle Medicine)."
+      }
+    },
+    {
+      "id": "nf:type/risky-substance-avoidance",
+      "type": "ActivityType",
+      "inScheme": "nf:v0",
+      "deprecated": false,
+      "prefLabel": {
+        "en": "avoidance of risky substances"
+      },
+      "definition": {
+        "en": "An activity about avoiding or reducing the use of tobacco, alcohol, and other risky substances. One of the six pillars of lifestyle medicine (American College of Lifestyle Medicine)."
+      }
+    },
+    {
+      "id": "nf:type/social-connection",
+      "type": "ActivityType",
+      "inScheme": "nf:v0",
+      "deprecated": false,
+      "prefLabel": {
+        "en": "positive social connection"
+      },
+      "definition": {
+        "en": "An activity about building and keeping positive social relationships. One of the six pillars of lifestyle medicine (American College of Lifestyle Medicine)."
+      }
+    }
   ]
 }
