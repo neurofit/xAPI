@@ -7,7 +7,7 @@
   ],
   "@graph": [
     {
-      "id": "nf:hfacs/tasksaturation",
+      "id": "nf:activity/tasksaturation",
       "type": "Activity",
       "inScheme": "nf:v0",
       "deprecated": false,
@@ -22,7 +22,7 @@
       }
     },
     {
-      "id": "nf:hfacs/fatigue",
+      "id": "nf:activity/fatigue",
       "type": "Activity",
       "inScheme": "nf:v0",
       "deprecated": false,
@@ -37,7 +37,7 @@
       }
     },
     {
-      "id": "nf:hfacs/channelizedattention",
+      "id": "nf:activity/channelizedattention",
       "type": "Activity",
       "inScheme": "nf:v0",
       "deprecated": false,
@@ -52,7 +52,7 @@
       }
     },
     {
-      "id": "nf:hfacs/burnout",
+      "id": "nf:activity/burnout",
       "type": "Activity",
       "inScheme": "nf:v0",
       "deprecated": false,
@@ -67,7 +67,7 @@
       }
     },
     {
-      "id": "nf:hfacs/haste",
+      "id": "nf:activity/haste",
       "type": "Activity",
       "inScheme": "nf:v0",
       "deprecated": false,
@@ -82,7 +82,7 @@
       }
     },
     {
-      "id": "nf:hfacs/spatialdisorientation",
+      "id": "nf:activity/spatialdisorientation",
       "type": "Activity",
       "inScheme": "nf:v0",
       "deprecated": false,
@@ -97,7 +97,7 @@
       }
     },
     {
-      "id": "nf:hfacs/distraction",
+      "id": "nf:activity/distraction",
       "type": "Activity",
       "inScheme": "nf:v0",
       "deprecated": false,

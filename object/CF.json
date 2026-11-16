@@ -1,0 +1,730 @@
+{
+  "@context": [
+    "https://w3id.org/xapi/profiles/context",
+    {
+      "nf": "https://neurofit.github.io/xAPI/"
+    }
+  ],
+  "@graph": [
+    {
+      "id": "nf:activity/CF/library",
+      "type": "Activity",
+      "inScheme": "nf:v0",
+      "deprecated": false,
+      "activityDefinition": {
+        "@context": "https://w3id.org/xapi/profiles/activity-context",
+        "name": {
+          "en": "library"
+        },
+        "description": {
+          "en": "Visiting the Carmel Foundation library to read or borrow books and other materials."
+        }
+      }
+    },
+    {
+      "id": "nf:activity/CF/cafe",
+      "type": "Activity",
+      "inScheme": "nf:v0",
+      "deprecated": false,
+      "activityDefinition": {
+        "@context": "https://w3id.org/xapi/profiles/activity-context",
+        "name": {
+          "en": "cafe"
+        },
+        "description": {
+          "en": "Buying, eating food, or visiting at the Carmel Foundation cafe."
+        }
+      }
+    },
+    {
+      "id": "nf:activity/CF/wellnesscenter",
+      "type": "Activity",
+      "inScheme": "nf:v0",
+      "deprecated": false,
+      "activityDefinition": {
+        "@context": "https://w3id.org/xapi/profiles/activity-context",
+        "name": {
+          "en": "wellness center"
+        },
+        "description": {
+          "en": "Visiting the Carmel Foundation Wellness Center."
+        }
+      }
+    },
+    {
+      "id": "nf:activity/CF/aarpsafedriving",
+      "type": "Activity",
+      "inScheme": "nf:v0",
+      "deprecated": false,
+      "activityDefinition": {
+        "@context": "https://w3id.org/xapi/profiles/activity-context",
+        "name": {
+          "en": "AARP safe driving"
+        },
+        "description": {
+          "en": "AARP driver safety course for older drivers."
+        }
+      }
+    },
+    {
+      "id": "nf:activity/CF/aiforimagecreation",
+      "type": "Activity",
+      "inScheme": "nf:v0",
+      "deprecated": false,
+      "activityDefinition": {
+        "@context": "https://w3id.org/xapi/profiles/activity-context",
+        "name": {
+          "en": "AI for image creation"
+        },
+        "description": {
+          "en": "Using AI tools to create and edit images from typed or spoken commands."
+        }
+      }
+    },
+    {
+      "id": "nf:activity/CF/agelessmotiontomusic",
+      "type": "Activity",
+      "inScheme": "nf:v0",
+      "deprecated": false,
+      "activityDefinition": {
+        "@context": "https://w3id.org/xapi/profiles/activity-context",
+        "name": {
+          "en": "ageless motion to music"
+        },
+        "description": {
+          "en": "Self-directed, gentle movement to music, seated or standing, at your own pace."
+        }
+      }
+    },
+    {
+      "id": "nf:activity/CF/agingcreatively",
+      "type": "Activity",
+      "inScheme": "nf:v0",
+      "deprecated": false,
+      "activityDefinition": {
+        "@context": "https://w3id.org/xapi/profiles/activity-context",
+        "name": {
+          "en": "aging creatively"
+        },
+        "description": {
+          "en": "Workshop on creativity, purpose, and connection during life transitions, with guided creative exercises."
+        }
+      }
+    },
+    {
+      "id": "nf:activity/CF/ikebana",
+      "type": "Activity",
+      "inScheme": "nf:v0",
+      "deprecated": false,
+      "activityDefinition": {
+        "@context": "https://w3id.org/xapi/profiles/activity-context",
+        "name": {
+          "en": "art of Japanese flower arrangement"
+        },
+        "description": {
+          "en": "Presentation on ikebana, the Japanese art of floral arrangement."
+        }
+      }
+    },
+    {
+      "id": "nf:activity/CF/backgammon",
+      "type": "Activity",
+      "inScheme": "nf:v0",
+      "deprecated": false,
+      "activityDefinition": {
+        "@context": "https://w3id.org/xapi/profiles/activity-context",
+        "name": {
+          "en": "backgammon"
+        },
+        "description": {
+          "en": "Hands-on class on backgammon rules and strategy, with friendly competitive play."
+        }
+      }
+    },
+    {
+      "id": "nf:activity/CF/balanceineverydaylife",
+      "type": "Activity",
+      "inScheme": "nf:v0",
+      "deprecated": false,
+      "activityDefinition": {
+        "@context": "https://w3id.org/xapi/profiles/activity-context",
+        "name": {
+          "en": "balance in everyday life"
+        },
+        "description": {
+          "en": "Gentle movement exercises that support balance in daily activities like walking, standing, sitting, and lifting."
+        }
+      }
+    },
+    {
+      "id": "nf:activity/CF/bellydancing",
+      "type": "Activity",
+      "inScheme": "nf:v0",
+      "deprecated": false,
+      "activityDefinition": {
+        "@context": "https://w3id.org/xapi/profiles/activity-context",
+        "name": {
+          "en": "belly dancing"
+        },
+        "description": {
+          "en": "Gentle, senior-friendly belly dancing focused on smooth movements to music."
+        }
+      }
+    },
+    {
+      "id": "nf:activity/CF/betterretirement",
+      "type": "Activity",
+      "inScheme": "nf:v0",
+      "deprecated": false,
+      "activityDefinition": {
+        "@context": "https://w3id.org/xapi/profiles/activity-context",
+        "name": {
+          "en": "better retirement"
+        },
+        "description": {
+          "en": "Informational session on using home equity, including home equity lines of credit and reverse mortgages, in retirement."
+        }
+      }
+    },
+    {
+      "id": "nf:activity/CF/bingo",
+      "type": "Activity",
+      "inScheme": "nf:v0",
+      "deprecated": false,
+      "activityDefinition": {
+        "@context": "https://w3id.org/xapi/profiles/activity-context",
+        "name": {
+          "en": "bingo"
+        },
+        "description": {
+          "en": "Social bingo game with small prizes."
+        }
+      }
+    },
+    {
+      "id": "nf:activity/CF/writersgroup",
+      "type": "Activity",
+      "inScheme": "nf:v0",
+      "deprecated": false,
+      "activityDefinition": {
+        "@context": "https://w3id.org/xapi/profiles/activity-context",
+        "name": {
+          "en": "writers group"
+        },
+        "description": {
+          "en": "Peer group where writers read their work aloud and give each other constructive feedback."
+        }
+      }
+    },
+    {
+      "id": "nf:activity/CF/cellphonebasics",
+      "type": "Activity",
+      "inScheme": "nf:v0",
+      "deprecated": false,
+      "activityDefinition": {
+        "@context": "https://w3id.org/xapi/profiles/activity-context",
+        "name": {
+          "en": "cell phone basics"
+        },
+        "description": {
+          "en": "Introductory class on using a cell phone: options, settings, troubleshooting, and maintenance."
+        }
+      }
+    },
+    {
+      "id": "nf:activity/CF/drawingandpainting",
+      "type": "Activity",
+      "inScheme": "nf:v0",
+      "deprecated": false,
+      "activityDefinition": {
+        "@context": "https://w3id.org/xapi/profiles/activity-context",
+        "name": {
+          "en": "drawing and painting fundamentals"
+        },
+        "description": {
+          "en": "Workshop on design, color theory, and acrylic painting techniques for all skill levels."
+        }
+      }
+    },
+    {
+      "id": "nf:activity/CF/earthstonesea",
+      "type": "Activity",
+      "inScheme": "nf:v0",
+      "deprecated": false,
+      "activityDefinition": {
+        "@context": "https://w3id.org/xapi/profiles/activity-context",
+        "name": {
+          "en": "earth, stone & sea"
+        },
+        "description": {
+          "en": "Three-part nature art workshop: art with gathered natural materials, painting on sea stones, and nature art at the beach."
+        }
+      }
+    },
+    {
+      "id": "nf:activity/CF/exploringmindfulness",
+      "type": "Activity",
+      "inScheme": "nf:v0",
+      "deprecated": false,
+      "activityDefinition": {
+        "@context": "https://w3id.org/xapi/profiles/activity-context",
+        "name": {
+          "en": "exploring mindfulness"
+        },
+        "description": {
+          "en": "Three-session introduction to mindfulness and practical mindfulness skills for everyday use."
+        }
+      }
+    },
+    {
+      "id": "nf:activity/CF/storytelling",
+      "type": "Activity",
+      "inScheme": "nf:v0",
+      "deprecated": false,
+      "activityDefinition": {
+        "@context": "https://w3id.org/xapi/profiles/activity-context",
+        "name": {
+          "en": "storytelling"
+        },
+        "description": {
+          "en": "Workshop on crafting a short true personal story to tell before a live audience."
+        }
+      }
+    },
+    {
+      "id": "nf:activity/CF/foodismedicine",
+      "type": "Activity",
+      "inScheme": "nf:v0",
+      "deprecated": false,
+      "activityDefinition": {
+        "@context": "https://w3id.org/xapi/profiles/activity-context",
+        "name": {
+          "en": "food is medicine"
+        },
+        "description": {
+          "en": "Course series on food and nutrition for health."
+        }
+      }
+    },
+    {
+      "id": "nf:activity/CF/morningyoga",
+      "type": "Activity",
+      "inScheme": "nf:v0",
+      "deprecated": false,
+      "activityDefinition": {
+        "@context": "https://w3id.org/xapi/profiles/activity-context",
+        "name": {
+          "en": "gentle & strong morning yoga"
+        },
+        "description": {
+          "en": "Gentle, strengthening yoga that links breath with each pose, with modifications for all levels."
+        }
+      }
+    },
+    {
+      "id": "nf:activity/CF/goldenconnections",
+      "type": "Activity",
+      "inScheme": "nf:v0",
+      "deprecated": false,
+      "activityDefinition": {
+        "@context": "https://w3id.org/xapi/profiles/activity-context",
+        "name": {
+          "en": "golden connections"
+        },
+        "description": {
+          "en": "Workshop series on planning how to age in your home and community, including the costs of living alone versus shared housing."
+        }
+      }
+    },
+    {
+      "id": "nf:activity/CF/impressionistpainting",
+      "type": "Activity",
+      "inScheme": "nf:v0",
+      "deprecated": false,
+      "activityDefinition": {
+        "@context": "https://w3id.org/xapi/profiles/activity-context",
+        "name": {
+          "en": "impressionist painting"
+        },
+        "description": {
+          "en": "Five-class series in Impressionist painting techniques using acrylics or non-toxic oils."
+        }
+      }
+    },
+    {
+      "id": "nf:activity/CF/internationalpoetryclub",
+      "type": "Activity",
+      "inScheme": "nf:v0",
+      "deprecated": false,
+      "activityDefinition": {
+        "@context": "https://w3id.org/xapi/profiles/activity-context",
+        "name": {
+          "en": "international poetry club"
+        },
+        "description": {
+          "en": "Discussion group exploring poems from around the world."
+        }
+      }
+    },
+    {
+      "id": "nf:activity/CF/introtopoetry",
+      "type": "Activity",
+      "inScheme": "nf:v0",
+      "deprecated": false,
+      "activityDefinition": {
+        "@context": "https://w3id.org/xapi/profiles/activity-context",
+        "name": {
+          "en": "intro to poetry"
+        },
+        "description": {
+          "en": "Introductory class on reading and writing poetry, with writing prompts."
+        }
+      }
+    },
+    {
+      "id": "nf:activity/CF/kaffeeklatsch",
+      "type": "Activity",
+      "inScheme": "nf:v0",
+      "deprecated": false,
+      "activityDefinition": {
+        "@context": "https://w3id.org/xapi/profiles/activity-context",
+        "name": {
+          "en": "kaffeeklatsch"
+        },
+        "description": {
+          "en": "German conversation practice over coffee with a native speaker."
+        }
+      }
+    },
+    {
+      "id": "nf:activity/CF/birding",
+      "type": "Activity",
+      "inScheme": "nf:v0",
+      "deprecated": false,
+      "activityDefinition": {
+        "@context": "https://w3id.org/xapi/profiles/activity-context",
+        "name": {
+          "en": "let's go birding"
+        },
+        "description": {
+          "en": "Presentation on local bird species, identification, and where to spot birds."
+        }
+      }
+    },
+    {
+      "id": "nf:activity/CF/mahjong101",
+      "type": "Activity",
+      "inScheme": "nf:v0",
+      "deprecated": false,
+      "activityDefinition": {
+        "@context": "https://w3id.org/xapi/profiles/activity-context",
+        "name": {
+          "en": "mahjong 101"
+        },
+        "description": {
+          "en": "Beginner mahjong class covering tile recognition and basic strategy."
+        }
+      }
+    },
+    {
+      "id": "nf:activity/CF/mahjong102",
+      "type": "Activity",
+      "inScheme": "nf:v0",
+      "deprecated": false,
+      "activityDefinition": {
+        "@context": "https://w3id.org/xapi/profiles/activity-context",
+        "name": {
+          "en": "mahjong 102"
+        },
+        "description": {
+          "en": "Intermediate mahjong class following mahjong 101."
+        }
+      }
+    },
+    {
+      "id": "nf:activity/CF/mahjong103",
+      "type": "Activity",
+      "inScheme": "nf:v0",
+      "deprecated": false,
+      "activityDefinition": {
+        "@context": "https://w3id.org/xapi/profiles/activity-context",
+        "name": {
+          "en": "mahjong 103"
+        },
+        "description": {
+          "en": "Advanced mahjong class on defensive play, hand optimization, and tactical decision-making."
+        }
+      }
+    },
+    {
+      "id": "nf:activity/CF/mensgroup",
+      "type": "Activity",
+      "inScheme": "nf:v0",
+      "deprecated": false,
+      "activityDefinition": {
+        "@context": "https://w3id.org/xapi/profiles/activity-context",
+        "name": {
+          "en": "men's group: navigating life"
+        },
+        "description": {
+          "en": "Discussion group for men on practical tools for life challenges, drawing on neuroscience."
+        }
+      }
+    },
+    {
+      "id": "nf:activity/CF/olderwiserhappier",
+      "type": "Activity",
+      "inScheme": "nf:v0",
+      "deprecated": false,
+      "activityDefinition": {
+        "@context": "https://w3id.org/xapi/profiles/activity-context",
+        "name": {
+          "en": "older, wiser, happier"
+        },
+        "description": {
+          "en": "Recurring group on aging well."
+        }
+      }
+    },
+    {
+      "id": "nf:activity/CF/paperscapes",
+      "type": "Activity",
+      "inScheme": "nf:v0",
+      "deprecated": false,
+      "activityDefinition": {
+        "@context": "https://w3id.org/xapi/profiles/activity-context",
+        "name": {
+          "en": "paperscapes"
+        },
+        "description": {
+          "en": "Paper-cutting art class making layered marine animal and coastal landscape pictures."
+        }
+      }
+    },
+    {
+      "id": "nf:activity/CF/pilates",
+      "type": "Activity",
+      "inScheme": "nf:v0",
+      "deprecated": false,
+      "activityDefinition": {
+        "@context": "https://w3id.org/xapi/profiles/activity-context",
+        "name": {
+          "en": "pilates for strength & control"
+        },
+        "description": {
+          "en": "Full-body class blending Pilates core work with strength, balance, and coordination training for everyday movement."
+        }
+      }
+    },
+    {
+      "id": "nf:activity/CF/poetrymusicmeaning",
+      "type": "Activity",
+      "inScheme": "nf:v0",
+      "deprecated": false,
+      "activityDefinition": {
+        "@context": "https://w3id.org/xapi/profiles/activity-context",
+        "name": {
+          "en": "poetry, music & meaning"
+        },
+        "description": {
+          "en": "Reading group on the poetry of Rainer Maria Rilke and its settings to music."
+        }
+      }
+    },
+    {
+      "id": "nf:activity/CF/purposefulretirement",
+      "type": "Activity",
+      "inScheme": "nf:v0",
+      "deprecated": false,
+      "activityDefinition": {
+        "@context": "https://w3id.org/xapi/profiles/activity-context",
+        "name": {
+          "en": "purposeful retirement"
+        },
+        "description": {
+          "en": "Online workshop series on meaning, purpose, and habits, building a plan for retirement."
+        }
+      }
+    },
+    {
+      "id": "nf:activity/CF/rootedincare",
+      "type": "Activity",
+      "inScheme": "nf:v0",
+      "deprecated": false,
+      "activityDefinition": {
+        "@context": "https://w3id.org/xapi/profiles/activity-context",
+        "name": {
+          "en": "rooted in care"
+        },
+        "description": {
+          "en": "Overview of community programs, resources, and support services for older adults."
+        }
+      }
+    },
+    {
+      "id": "nf:activity/CF/skincare101",
+      "type": "Activity",
+      "inScheme": "nf:v0",
+      "deprecated": false,
+      "activityDefinition": {
+        "@context": "https://w3id.org/xapi/profiles/activity-context",
+        "name": {
+          "en": "skin care 101"
+        },
+        "description": {
+          "en": "Talk on skin types and affordable skin care."
+        }
+      }
+    },
+    {
+      "id": "nf:activity/CF/stability",
+      "type": "Activity",
+      "inScheme": "nf:v0",
+      "deprecated": false,
+      "activityDefinition": {
+        "@context": "https://w3id.org/xapi/profiles/activity-context",
+        "name": {
+          "en": "stability"
+        },
+        "description": {
+          "en": "Talk on how stability works and how to train it at any age; not a workout."
+        }
+      }
+    },
+    {
+      "id": "nf:activity/CF/stayingsafeonline",
+      "type": "Activity",
+      "inScheme": "nf:v0",
+      "deprecated": false,
+      "activityDefinition": {
+        "@context": "https://w3id.org/xapi/profiles/activity-context",
+        "name": {
+          "en": "staying safe online"
+        },
+        "description": {
+          "en": "Class on protecting privacy online, reducing spam, and spotting phishing."
+        }
+      }
+    },
+    {
+      "id": "nf:activity/CF/stretchandstrengthen",
+      "type": "Activity",
+      "inScheme": "nf:v0",
+      "deprecated": false,
+      "activityDefinition": {
+        "@context": "https://w3id.org/xapi/profiles/activity-context",
+        "name": {
+          "en": "stretch & strengthen"
+        },
+        "description": {
+          "en": "Workout combining core strengthening, Pilates principles, and restorative stretching for stability, posture, and mobility."
+        }
+      }
+    },
+    {
+      "id": "nf:activity/CF/taiji",
+      "type": "Activity",
+      "inScheme": "nf:v0",
+      "deprecated": false,
+      "activityDefinition": {
+        "@context": "https://w3id.org/xapi/profiles/activity-context",
+        "name": {
+          "en": "taiji (tai chi)"
+        },
+        "description": {
+          "en": "Gentle, flowing mindful movement that builds balance, calm, and awareness."
+        }
+      }
+    },
+    {
+      "id": "nf:activity/CF/teatalk",
+      "type": "Activity",
+      "inScheme": "nf:v0",
+      "deprecated": false,
+      "activityDefinition": {
+        "@context": "https://w3id.org/xapi/profiles/activity-context",
+        "name": {
+          "en": "tea talk"
+        },
+        "description": {
+          "en": "Talk on the history, traditions, and etiquette of afternoon tea, with a tea and scone tasting."
+        }
+      }
+    },
+    {
+      "id": "nf:activity/CF/travelsharing",
+      "type": "Activity",
+      "inScheme": "nf:v0",
+      "deprecated": false,
+      "activityDefinition": {
+        "@context": "https://w3id.org/xapi/profiles/activity-context",
+        "name": {
+          "en": "travel sharing"
+        },
+        "description": {
+          "en": "Casual peer discussion sharing travel advice for a featured destination."
+        }
+      }
+    },
+    {
+      "id": "nf:activity/CF/femalesexuality",
+      "type": "Activity",
+      "inScheme": "nf:v0",
+      "deprecated": false,
+      "activityDefinition": {
+        "@context": "https://w3id.org/xapi/profiles/activity-context",
+        "name": {
+          "en": "understanding female sexuality"
+        },
+        "description": {
+          "en": "Class for women on how the body contributes to well-being, vitality, and connection."
+        }
+      }
+    },
+    {
+      "id": "nf:activity/CF/usingai",
+      "type": "Activity",
+      "inScheme": "nf:v0",
+      "deprecated": false,
+      "activityDefinition": {
+        "@context": "https://w3id.org/xapi/profiles/activity-context",
+        "name": {
+          "en": "using AI: everyday"
+        },
+        "description": {
+          "en": "Two-part introduction to using AI tools for everyday tasks, problem-solving, and writing."
+        }
+      }
+    },
+    {
+      "id": "nf:activity/CF/usinginstagram",
+      "type": "Activity",
+      "inScheme": "nf:v0",
+      "deprecated": false,
+      "activityDefinition": {
+        "@context": "https://w3id.org/xapi/profiles/activity-context",
+        "name": {
+          "en": "using Instagram"
+        },
+        "description": {
+          "en": "Beginner, step-by-step class on browsing Instagram and keeping up with family, friends, and interests."
+        }
+      }
+    },
+    {
+      "id": "nf:activity/CF/woolfelting",
+      "type": "Activity",
+      "inScheme": "nf:v0",
+      "deprecated": false,
+      "activityDefinition": {
+        "@context": "https://w3id.org/xapi/profiles/activity-context",
+        "name": {
+          "en": "wool felting"
+        },
+        "description": {
+          "en": "Craft workshop in felting wool."
+        }
+      }
+    }
+  ]
+}

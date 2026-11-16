@@ -1,0 +1,85 @@
+{
+  "@context": [
+    "https://w3id.org/xapi/profiles/context",
+    {
+      "nf": "https://neurofit.github.io/xAPI/"
+    }
+  ],
+  "@graph": [
+    {
+      "id": "nf:activity/surveys/nasatlx",
+      "type": "Activity",
+      "inScheme": "nf:v0",
+      "deprecated": false,
+      "activityDefinition": {
+        "@context": "https://w3id.org/xapi/profiles/activity-context",
+        "name": {
+          "en": "NASA-TLX"
+        },
+        "description": {
+          "en": "NASA Task Load Index: perceived workload rated on 6 subscales (mental demand, physical demand, temporal demand, performance, effort, and frustration), each from 0 to 100."
+        }
+      }
+    },
+    {
+      "id": "nf:activity/surveys/mrs15",
+      "type": "Activity",
+      "inScheme": "nf:v0",
+      "deprecated": false,
+      "activityDefinition": {
+        "@context": "https://w3id.org/xapi/profiles/activity-context",
+        "name": {
+          "en": "MRS-15"
+        },
+        "description": {
+          "en": "Military Readiness Scale: 15 self-report items on general psychological, technical, and physical readiness, rated on a 5-point scale from strongly disagree to strongly agree."
+        }
+      }
+    },
+    {
+      "id": "nf:activity/surveys/nsi22",
+      "type": "Activity",
+      "inScheme": "nf:v0",
+      "deprecated": false,
+      "activityDefinition": {
+        "@context": "https://w3id.org/xapi/profiles/activity-context",
+        "name": {
+          "en": "NSI-22"
+        },
+        "description": {
+          "en": "Neurobehavioral Symptom Inventory: 22 items rating symptoms experienced in the last 2 weeks, from none (0) to very severe (4)."
+        }
+      }
+    },
+    {
+      "id": "nf:activity/surveys/acq27",
+      "type": "Activity",
+      "inScheme": "nf:v0",
+      "deprecated": false,
+      "activityDefinition": {
+        "@context": "https://w3id.org/xapi/profiles/activity-context",
+        "name": {
+          "en": "ACQ-27"
+        },
+        "description": {
+          "en": "Activity Characteristics Questionnaire: 27 items reporting time spent yesterday in activities with specific characteristics."
+        }
+      }
+    },
+    {
+      "id": "nf:activity/surveys/acq43",
+      "type": "Activity",
+      "inScheme": "nf:v0",
+      "deprecated": false,
+      "activityDefinition": {
+        "@context": "https://w3id.org/xapi/profiles/activity-context",
+        "name": {
+          "en": "ACQ-43"
+        },
+        "description": {
+          "en": "Activity Characteristics Questionnaire: 43-item version."
+        }
+      }
+    }
+  ]
+}

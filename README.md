@@ -29,7 +29,7 @@ This project uses W3C standards:
 - W3 ID
   - w3id.org
 - JSON-LD 1.1 (2020, w3.org/TR/json-ld11) that allows profile, path expansion
-  - json-ld.org/playground lets you see how a document expands
+  - json-ld.org/playground
 - SKOS, the vocabulary for glossaries and controlled terms
   - inScheme
   - prefLabel
@@ -40,9 +40,11 @@ This project uses W3C standards:
   - github.com/adlnet/xapi-authored-profiles
 - ILER (individual longitudinal exposure record)  / DOEHRS - IH
   - https://health.mil/iler
-  - 
 - VA Public Health Exposure Topics A-Z
   - https://www.publichealth.va.gov/exposures/topics
 - Exposure Ontology (ExO)
   - Root classes: event, stressor, receptor, outcome
   - https://obofoundry.org/ontology/exo
+
+# To Do
+- Move CF.json
