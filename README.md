@@ -1,4 +1,3 @@
-# neuroFit xAPI
 neuroFit xAPI profile (v0)
 
 ## Verbs
